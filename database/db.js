@@ -3,7 +3,7 @@ require('dotenv').config();
 
 // Replace these values with your MySQL database credentials
 const dbConfig = {
-  host: process.env.DB_HOSTNAME || 'localhost',
+  host: process.env.DB_HOST || 'localhost',
   username: process.env.DB_USERNAME || 'root',
   password: process.env.DB_PASSWORD || '',
   database: process.env.DB_NAME || 'ecommerce',
